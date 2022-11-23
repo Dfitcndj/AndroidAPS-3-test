@@ -55,6 +55,8 @@ class AIMIPlugin @Inject constructor(
         .pluginIcon(R.drawable.ic_generic_icon)
         .pluginName(R.string.fulluam)
         .shortName(R.string.fulluam_shortname)
+        .setDefault(false)
+        .showInList(false)
         .preferencesId(R.xml.pref_fulluam)
         .description(R.string.description_fulluam),
     aapsLogger, resourceHelper, injector

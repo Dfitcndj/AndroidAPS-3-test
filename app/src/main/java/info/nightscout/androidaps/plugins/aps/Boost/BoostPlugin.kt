@@ -59,7 +59,7 @@ class BoostPlugin @Inject constructor(
         .preferencesId(R.xml.pref_boost)
         .description(R.string.description_Boost)
         .setDefault(false)
-        .showInList(buildHelper.isEngineeringMode()),
+        .showInList(false),
     aapsLogger, rh, injector
 ), APS, Constraints {
 

@@ -55,6 +55,8 @@ class ENPlugin @Inject constructor(
         .pluginIcon(R.drawable.ic_generic_icon)
         .pluginName(R.string.EN)
         .shortName(R.string.EN_shortname)
+        .setDefault(false)
+        .showInList(false)
         .preferencesId(R.xml.pref_eatingnow)
         .description(R.string.description_EN),
     aapsLogger, rh, injector
